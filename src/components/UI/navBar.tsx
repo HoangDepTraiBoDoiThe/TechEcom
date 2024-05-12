@@ -10,8 +10,8 @@ const NavBar = (props: Props) => {
   return (
     <nav className="flex justify-between p-3 shadow-md">
       <div className="flex items-center gap-2">
-        <Image src="/logo_bigger.jpeg" alt="Logo" width={60} height={60} />
-        <h1 className="font-bold text-xl">Tech Ecom</h1>
+        <Image src="/assets/speaker2.webp" alt="Logo" width={60} height={60} />
+        <h1 className="font-bold text-2xl uppercase">Tech Ecom</h1>
       </div>
       <div className="flex justify-between items-center gap-10">
         <Button>

@@ -13,8 +13,12 @@ const Hero = (props: Props) => {
     <section className="flex flex-col justify-between relative bg-slate-200 max-md:p-5 p-10 rounded-2xl h-[700px] max-md:h-[850px]">
       <div className="space-y-0 gap-0">
         <p className="font-semibold text-2xl">{props.smallText}</p>
-        <h2 className="font-bold text-red-500 text-7xl">{props.medText}</h2>
-        <h1 className="text-white font-bold text-9xl">{props.largeText}</h1>
+        <h2 className="font-bold text-red-500 max-sm:text-6xl text-7xl">
+          {props.medText}
+        </h2>
+        <h1 className="text-white font-bold max-sm:text-7xl text-9xl">
+          {props.largeText}
+        </h1>
         <Image
           className="absolute max-md:top-60 top-5 right-1/2 left-1/2 -translate-x-1/2"
           src={"/assets/headphones_a_3.webp"}
